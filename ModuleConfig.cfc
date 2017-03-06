@@ -48,7 +48,6 @@ component hint="Vimeo Embed Widget with Customizable Options"{
         // Custom Declared Interceptors
         interceptors = [
             //SES
-            { class="Modules.ContentBox.Modules_user.bluVimeoEmbed.Interceptors.VimeoCodeInjector" }
         ];
         // Binder Mappings
         // binder.map( "Alias" ).to( "#moduleMapping#.model.MyService" );
