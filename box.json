@@ -1,0 +1,37 @@
+{
+    "name":"ContentBox Vimeo Embed Widget Module",
+    "version":"1.0.6",
+    "location":"bluewatersolutions/vimeo-plugin#v1.0.6",
+    "author":"Andrew Davis",
+    "homepage":"https://github.com/bluewatersolutions/vimeo-plugin",
+    "documentation":"https://github.com/bluewatersolutions/vimeo-plugin",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/bluewatersolutions/vimeo-plugin"
+    },
+    "bugs":"https://github.com/bluewatersolutions/vimeo-plugin/issues",
+    "slug":"vimeo-plugin",
+    "shortDescription":"Customizable Vimeo Embed Widget for Contentbox 3",
+    "instructions":"https://github.com/bluewatersolutions/vimeo-plugin",
+    "type":"contentbox-modules",
+    "keywords":[
+        "Vimeo",
+        "Widget",
+        "Embed",
+        "Timeline",
+        "Social",
+        "Social Media"
+    ],
+    "scripts":{
+        "postVersion":"package set location='bluewatersolutions/vimeo-plugin#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push origin master && !git push origin master --tags"
+    },
+    "private":false,
+    "license":[
+        {
+            "type":"MIT",
+            "URL":"https://github.com/bluewatersolutions/vimeo-plugin/blob/master/LICENSE"
+        }
+    ]
+}
