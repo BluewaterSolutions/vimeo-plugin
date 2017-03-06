@@ -1,12 +1,12 @@
 {
     "name":"ContentBox Vimeo Social Media Embed Widget Module",
-    "version":"1.0.11",
-    "location":"bluewatersolutions/vimeo-plugin#v1.0.11",
+    "version":"1.0.12",
+    "location":"bluewatersolutions/vimeo-plugin#v1.0.12",
     "author":"Andrew Davis",
     "homepage":"https://github.com/bluewatersolutions/vimeo-plugin",
     "documentation":"https://github.com/bluewatersolutions/vimeo-plugin",
     "repository":{
-        "type":"git",
+        "type":"github",
         "URL":"https://github.com/bluewatersolutions/vimeo-plugin"
     },
     "bugs":"https://github.com/bluewatersolutions/vimeo-plugin/issues",
